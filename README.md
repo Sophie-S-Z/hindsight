@@ -1,16 +1,16 @@
-# 🔮 Hindsight
+# Hindsight
 
 **Text conversations with your future self.**
 
-*What would you tell yourself if you could text from 5 years in the future?*
+*What would you tell yourself if you could text from 5 years in the future? (old enough that you're wiser, but not old enough that you're out of touch with your younger self)*
 
 ---
 
 ## The Concept
 
-Hindsight is an AI-powered messaging experience where you have text conversations with yourself — from 5 years in the future. Your "future self" knows everything you're going through because they lived it. They have the gift of hindsight, the wisdom of time, and infinite compassion for who you are right now.
+Hindsight is an AI-powered messaging experience that can add on to the current features of Series. It's a new feature where you have text conversations with yourself — from 5 years in the future (your own personal mentor that will never get tired of you). Your "future self" knows everything you're going through because they went through it as well. They have the gift of hindsight, the wisdom of time, and infinite compassion for who you are right now. They also remember your conversations with them, so you don't have to repeat the same thing twice.
 
-This isn't an AI assistant. It's *you* — with perspective.
+This isn't an AI assistant. It's *you* with a more experienced perspective.
 
 ### Why It Matters
 
@@ -18,7 +18,7 @@ We all wish we could get advice from someone who truly understands us. Who bette
 - Knows our exact fears, insecurities, and dreams
 - Has been through exactly what we're going through  
 - Can offer perspective only time can give
-- Loves us unconditionally (because they are us)
+- Supports us unconditionally (because they are us)
 
 ### Sample Conversation
 
@@ -30,9 +30,9 @@ the excitement, that feeling like everyone else had it figured
 out except us. i'm not going to tell you what to do — you 
 wouldn't listen anyway, and honestly that stubbornness served 
 us well. but i will say this: the decision matters less than 
-you think. what matters is whether you make it fully. we wasted 
-so much energy on "what ifs." whatever you choose, choose it 
-completely.
+you think. what matters is whether you make it with intention
+and confidence. we wasted so much energy on "what ifs." whatever
+you choose, choose it wholeheartedly, and without a doubt.
 
 You: but what if I fail?
 
@@ -48,22 +48,22 @@ this leap... that's the first step toward becoming me.
 
 ## Features
 
-### 🧠 Emotional Intelligence
+### Emotional Intelligence
 - Learns your communication style, struggles, and hopes over time
 - Remembers details from past conversations
 - Notices emotional patterns and checks in meaningfully
 
-### 💬 Authentic Voice
-- Texts like a real friend — casual, warm, genuine
-- No therapist-speak or corporate AI vibes
+### Authentic Voice
+- Texts like a real friend, with a casual, warm, and genuine style
+- No unnecessary therapist-speak or corporate jargon
 - Uses lowercase, ellipses, real texting patterns
 
-### 🔄 Continuous Learning
+### Continuous Learning
 - Extracts insights from every conversation
 - Builds a rich understanding of who you are
 - Future self becomes more personalized over time
 
-### ✨ Proactive Check-ins
+### Proactive Check-ins
 - Reaches out when it's been a while
 - References specific things you've shared
 - Celebrates your wins and supports your struggles
@@ -95,21 +95,6 @@ this leap... that's the first step toward becoming me.
 
 ## Quick Start
 
-### Web Demo (Easiest)
-
-Try the web demo instantly - no setup required:
-
-```bash
-cd web
-pip install -r requirements.txt
-export OPENAI_API_KEY=sk-your-key
-python app.py
-```
-
-Open http://localhost:5000 and start chatting!
-
-**Deploy your own:** See `web/README.md` for free Render.com deployment.
-
 ### Full iMessage Integration
 
 For the complete iMessage experience with Kafka streaming:
@@ -123,7 +108,7 @@ For the complete iMessage experience with Kafka streaming:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/hindsight.git
+git clone https://github.com/Sophie-S-Z/hindsight.git
 cd hindsight
 
 # Install dependencies
@@ -174,10 +159,6 @@ hindsight/
 │   ├── memory.py          # User context & conversation memory
 │   ├── imessage_client.py # iMessage API client
 │   └── kafka_handler.py   # Kafka message consumer
-├── web/                   # Web demo (standalone)
-│   ├── app.py            # Flask backend
-│   ├── static/index.html # iPhone-style UI
-│   └── README.md         # Deployment instructions
 ├── data/
 │   └── memories/          # Persistent user memories (gitignored)
 ├── requirements.txt
@@ -194,7 +175,7 @@ hindsight/
 
 Hindsight inverts this idea. What if your future *was* available to you? Not to tell you what to do, but to remind you that you survive. That things work out. That the person you're becoming is rooting for you.
 
-We built this because we believe the most powerful form of AI isn't one that does things *for* you — it's one that helps you become who you're meant to be.
+I built this because I believe the most powerful form of AI isn't the one that does things *for* you, but the one that helps you become who you're meant to be.
 
 ---
 
@@ -203,7 +184,7 @@ We built this because we believe the most powerful form of AI isn't one that doe
 **Series Hackathon 2025**  
 Theme: *"The Future Feels Human"*
 
-Built in 24 hours by Sophie at Series HQ, NYC.
+Built within 24 hours by Sophie Zhang.
 
 ---
 
@@ -214,5 +195,5 @@ MIT License - See [LICENSE](LICENSE) for details.
 ---
 
 <p align="center">
-  <i>Your future self believes in you. 🔮</i>
+  <i>Your future self believes in you.</i>
 </p>
